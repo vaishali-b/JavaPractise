@@ -1,5 +1,5 @@
 
-class isPower{
+class IsPower{
 
 public static void main(String[] args)
   {
