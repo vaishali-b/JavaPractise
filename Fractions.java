@@ -17,17 +17,18 @@ public static void addFractions(int[] fraction1,int[] fraction2){
         }
         //numerator multiplication  
         int numerator=( fraction1[0]*multipleF1 + fraction2[0]*multipleF2);
-        System.out.println(asFraction(numerator,lcm));
+        
+        
+        int gcm=gcm(numerator,lcm);
+        int[] solution={numerator/gcm,lcm/gcm};
+        System.out.println(Arrays.toString(solution));
         
     }
     public static int gcm(int a, int b) {
         return b == 0 ? a : gcm(b, a % b);
     }
 
-    public static String asFraction(int a, int b) {
-        int gcm = gcm(a, b);
-        return (a / gcm) + "/" + (b / gcm);
-    }
+   
 
 
 
