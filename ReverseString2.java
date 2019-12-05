@@ -34,7 +34,7 @@ public static void main(String[] args)
               
           }
      
-      System.out.println("ReversedString: "+str);
+      System.out.println("Reversed String: "+str);
 }
 
 }
