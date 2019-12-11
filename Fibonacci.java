@@ -15,7 +15,7 @@ public static void main(String[] args)
           sum = a + b;
             a = b;
             b = sum;
-           //Series
+        } //Series
         System.out.println("Fibonacci Series: "+arr);
         //Retreive nth element
         int input = 8;
