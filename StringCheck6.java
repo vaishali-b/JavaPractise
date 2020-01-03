@@ -14,13 +14,13 @@ public static void main(String[] args)
       System.out.println("Enter substring limit: ");
       int k= scan.nextInt();
       String smallest = s.substring(0, k);
-         String largest = s.substring(0, k);
+         String largest = "";
          String temp;
-         for(int i = 0 ; i < s.length() - k + 1 ; i++)
+         for(int i = 0 ; i < s.length() - k + 1 ; i++) // .  for(int i = 0 ; i <= s.length() - k ; i++)
          {
              temp = s.substring(i, i + k);
-             if(smallest.compareTo(temp) > 0) smallest = temp;
-             if(largest.compareTo(temp) < 0) largest = temp;
+             if(temp.compareTo(smallest) < 0) smallest = temp;
+             if(temp.compareTo(largest) > 0) largest = temp;
          }
       System.out.println( smallest + "\n" + largest);
   }
