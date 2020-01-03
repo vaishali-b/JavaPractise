@@ -20,6 +20,19 @@ public static void main(String[] args)
           System.out.print(str+ " ");
       }
       System.out.println();
+  /*
+  
+  Set<String> hs=new HashSet<String>();
+  for(String myStr: s.split(" ")){
+  if(hs.add(myStr)) System.out.print(myStr+" ");
+  
+  }
+  
+  
+  */
+  
+  
+  
   }
   
 }
