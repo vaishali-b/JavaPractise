@@ -22,6 +22,20 @@ Scanner scan = new Scanner(System.in);
                 }
             System.out.println(count);
       }
+  
+  /*
+  
+  int[] primes={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47};
+  int multi=1,count=0;
+  for(int i=0;i<primes.length;i++){
+multi=multi*primes[i];
+if(multi<=n) count==1;
+else break;
+
+}
+  System.out.println(count);
+  
+  */
    
 }
 
