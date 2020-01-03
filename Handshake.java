@@ -21,6 +21,15 @@ public static void main(String[] args)
       handshakes = (myarr[j] * (myarr[j] -1) )/2;
       System.out.println("No of handshakes: "+handshakes);
   }
+  
+  
+  /*
+  int n=6;int handshakes=0;
+  if(n==0 || n==1) handshakes=0;
+  else if(n==2) handshakes=1;
+  else handshakes=(n*(n-1))/2;
+  
+  */
   }
    
 }
