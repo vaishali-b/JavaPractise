@@ -22,6 +22,16 @@ public static void main(String[] args)
              if(temp.compareTo(smallest) < 0) smallest = temp;
              if(temp.compareTo(largest) > 0) largest = temp;
          }
+  
+  /*
+  String s4="welcometojava";
+  int k=3;
+  SortedSet<String> ss=new TreeSet<>();
+  for(int i=0;i<=s4.length()-k;i++){
+  ss.add()s4.substring(i,i+k);
+  }
+  System.out.println(ss.first()+ "\n"+ ss.last());
+  */
       System.out.println( smallest + "\n" + largest);
   }
     
