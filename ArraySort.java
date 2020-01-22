@@ -20,5 +20,24 @@ public static void main(String[] args)
         }
       }
       System.out.println(Arrays.toString(myarr));
-      }
+  
+  
+  // Sort in a way such that even first and odd last
+  
+  int temp=0,rot=0;
+  for(int i=0;i<myarr.length;i++){
+   if(myarr[i]%2==0){
+    for(int j=i;j>rot;j++){
+     temp=myarr[j-1];
+      myarr[j-1]=myarr[j];
+      myarr[j]=temp;
+      
+    }
+     rot++;
+   }
+    
+  }
+  
+  System.out.println(Arrays.toString(myarr));
+       }
 }
